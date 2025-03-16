@@ -208,7 +208,7 @@ app.post("/login", async (req, res) => {
   res.json({ token });
 });
 
-app.post("/health", async (req, res) => {
+app.get("/health", async (req, res) => {
   res.status(200).json({ message: "OK" });
 });
 // Start Server
