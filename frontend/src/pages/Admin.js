@@ -19,7 +19,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const API_URL = "http://localhost:5000/coupons";
+const API_URL = "http://localhost:8080/coupons";
 
 function Admin() {
   const navigate = useNavigate();
