@@ -13,7 +13,7 @@ import dayjs from "dayjs";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_URL = "http://localhost:8080/coupons";
+const API_URL = "https://nilesh-n-g-coupon-management-system.onrender.com/coupons";
 
 function EditCouponModal({ open, onClose, coupon, onUpdate }) {
   const [expiryDate, setExpiryDate] = useState(dayjs(coupon.expiry_date));

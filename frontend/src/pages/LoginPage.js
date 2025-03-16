@@ -27,7 +27,7 @@ const LoginPage = () => {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post("http://localhost:8080/login", { username, password });
+      const res = await axios.post("https://nilesh-n-g-coupon-management-system.onrender.com/login", { username, password });
       localStorage.setItem("token", res.data.token);
       navigate("/admin");
     } catch (error) {

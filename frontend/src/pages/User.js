@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css"; // Import toast styles
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const API_URL = "http://localhost:8080/coupons"; // Change for deployment
+const API_URL = "https://nilesh-n-g-coupon-management-system.onrender.com/coupons"; // Change for deployment
 
 const columns = [
   { field: "id", headerName: "Sl No", width: 70 },
